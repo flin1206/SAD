@@ -1,2 +1,2 @@
-# SAD-repository
+# SAD
 system analysis and design
