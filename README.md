@@ -35,3 +35,6 @@
 [Vue.js](https://vuejs.org/)
 ## 預備練習任務
 ### 1. 衣服銷售網站實作
+
+## 作業
+[hw1](https://youtu.be/CkvtXSvL0pI)
