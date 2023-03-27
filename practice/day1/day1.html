@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>
+        Document
+    </title>
+</head>
+
+<body>
+    <div id="app">
+        <div id="section1">
+            <span>data1</span>
+            <span>data2</span>
+            <span>data3</span>
+            <span>data4</span>
+            <span>data5</span>
+            <span>data6</span>
+            <span>data7</span>
+            <span>data8</span>
+            <span>data9</span>
+            <span>data10</span>
+        </div>
+        <div id="section2">
+            <span>data1</span>
+            <span>data2</span>
+            <span>data3</span>
+            <span>data4</span>
+            <span>data5</span>
+            <span>data6</span>
+            <span>data7</span>
+            <span>data8</span>
+            <span>data9</span>
+            <span>data10</span>
+        </div>
+        <div id="section3">
+            <span>data1</span>
+            <span>data2</span>
+            <span>data3</span>
+            <span>data4</span>
+            <span>data5</span>
+            <span>data6</span>
+            <span>data7</span>
+            <span>data8</span>
+            <span>data9</span>
+            <span>data10</span>
+        </div>
+        <div id="section4">
+            <span>data1</span>
+            <span>data2</span>
+            <span>data3</span>
+            <span>data4</span>
+            <span>data5</span>
+            <span>data6</span>
+            <span>data7</span>
+            <span>data8</span>
+            <span>data9</span>
+            <span>data10</span>
+        </div>
+        <div id="section5">
+            <p>{{ message }}</p>
+        </div>
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.js'></script>
+    <!--1-->
+    <!--2-->
+    <script>
+        ;(function  () {
+            new Vue({
+                el: '#section5',
+                data: {
+                    message: 'Hello Vue!',
+                    copyright: '版權所有',
+                    company: 'google',
+                },
+            });    
+        })()
+    </script>
+</body>
+
+</html>

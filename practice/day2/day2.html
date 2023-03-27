@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="app">
+            <!-- v-once : 不會再次修改資料
+            <p v-once>{{ msg }}</p>
+            <p>{{ msg }}</p> -->
+
+            <!-- v-html :取代資料
+            <p v-html="test">123123456465</p> -->
+        </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.js'></script>
+        <script>
+            let data = {
+                msg:'Hello Vue',
+                html: '<span style="color: red">This should be red.</span>',
+                test: '<img src="aaa.jpg" onerror="window.alert(`Errr...`)"/>',
+            }
+
+            let vm = new Vue({
+                el: '#app',
+                template: '<span style="color: red">This should be red.</span>',
+                data,
+            })
+
+            // instance & template
+
+            // *1. html template + el Option
+            // 2. el option + template option
+            // 3. template options(selector) + vm.$mount
+
+        </script>
+    </body>
+</html>
