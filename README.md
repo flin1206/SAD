@@ -37,4 +37,5 @@
 ### 1. 衣服銷售網站實作
 
 ## 作業
-[hw1](https://youtu.be/CkvtXSvL0pI)
+[hw1](https://youtu.be/CkvtXSvL0pI)  
+[hw2](https://youtu.be/oa8W_iTcs6Y)
