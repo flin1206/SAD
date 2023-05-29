@@ -38,4 +38,5 @@
 
 ## 作業
 [hw1](https://youtu.be/CkvtXSvL0pI)  
-[hw2](https://youtu.be/oa8W_iTcs6Y)
+[hw2](https://youtu.be/oa8W_iTcs6Y)  
+[hw4](https://www.youtube.com/watch?v=3UQ-cWS3dUs)  
